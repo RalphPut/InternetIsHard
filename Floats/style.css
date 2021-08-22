@@ -7,7 +7,7 @@
 .menu{
     height: 100px;
     background-color: mediumblue;
-    float: none;
+    
 }
 .sidebar{
     height: 300px;
@@ -16,6 +16,56 @@
     float: left;
 }
 .footer{
+    background-color: lightblue;
+    overflow: hidden;
+}  
+.content{
+    float: right;
+    height: 500px;
+    width: 650px;
+    background-color: Yellow;
+    padding: 20px;
+}
+.page{
+    width: 850px;
+    margin: 0 auto;
+}
+.article-image{
+    float: left;
+    width: 300px;
     height: 200px;
-    background-color: red;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+p {
+    margin-bottom: 20px;
+}
+
+.container{
+    overflow: hidden;
+    background-color: green;
+}
+.footer-item{
+    float: left;
+    width: 31%;
+    margin: 20px 1.15%;
+    height: 160px;
+    background-color: pink;
+}
+
+.avatar{
+    float: left;
+    width: 60px;
+    margin: 25px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: purple;
+}
+
+.username{
+    margin-top: 30px;
+}
+.comment{
+    margin: 10px;
+    overflow: hidden;
 }
